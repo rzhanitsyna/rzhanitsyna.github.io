@@ -1,0 +1,167 @@
+body {
+    background:#f8f8f8;
+}
+.nomarker {
+    list-style-type: none;
+    float: right;
+    margin-right: 10px;
+}
+.nomarker li a {
+    color: #a05757;
+    font-variant: small-caps;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nomarker li {
+    display: inline-block;
+    margin: 30px  10px 0px 10px;
+}
+.hhh {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+#kratkoe {
+    color: #707070;
+    font-size: 18.5px;
+}
+#podrobno {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+#spisok {
+    color: #4d4d4d;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    list-style-image: url(../images/spisok.png);
+}
+.vvod {
+    width: 210px;
+    height: 30px;
+    color: #882424;
+    background: #fdf9f9;
+    text-transform: capitalize;
+}
+#image {
+    border-color: #a05757;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.images {
+    border-color: #a05757;
+    border-style: solid;
+    border-width: 2px;
+}
+.nomarker li a:hover {
+    color: #000000;
+}
+button {
+    background: #fdf9f9;
+}
+fieldset input:first-letter {
+    color: #882424;
+    font-size: large;
+}
+table {
+    border-collapse: collapse;
+    width: 300px;
+    height: 150px;
+}
+td, th {
+    border: 1.5px solid #a05757;
+    vertical-align: middle;
+}
+th {
+    height: 55px;
+}
+p:first-letter {
+    color: #a05757;
+    font-size: 30px;
+}
+.footer {
+    background-color: #e7e6e6;
+    height: 40px;
+    text-align: right;
+    clear: both;
+    margin-top: 10px;
+}
+#image:hover {
+    border-color: transparent;
+}
+.container {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    position: inherit;
+}
+.header {
+    height: 100px;
+    background: #d0c79b38;
+    margin: 0 auto;
+}
+.logo {
+    margin: 0px 10px 0 10px;
+}
+hr {
+    margin: 8px 1px 0 1px;
+}
+.name {
+    font-variant: small-caps;
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.kratkoe {
+    width: 60%;
+    margin-left: 320px;
+}
+#harakter {
+    clear: both;
+    margin-top: 20px;
+}
+.buy {
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    background: #c78686;
+    padding: 10px 20px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.buy:hover {
+    color: white;
+    background: #a05757;
+}
+.buy:active {
+    color: white;
+    background: black;
+}
+.list {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.product {
+    float: left;
+    margin-right: 5%;
+    width: 30%;
+    margin-top: 20px;
+}
+.product:nth-child(3n) {
+    margin-right: 0;
+}
+
+
+
